@@ -10,6 +10,9 @@ char type;
 unsigned int x, y;
 
 int main(){
+    cin.tie(0);
+    cout.tie(0);
+    ios_base::sync_with_stdio(0);
     cin>>arr_size;
     cin>>nof_queries;
 
